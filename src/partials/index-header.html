@@ -1,0 +1,37 @@
+<header class="header">
+    <div class="container header-container">
+        <div class="header-top-side">
+        <a class="header-logo" href="./index.html">
+            <svg class="header-logo__icon" width="38" height="38">
+            <use href="/src/img/icon.svg#icon-logo"></use>
+        </svg>
+        </a>
+        <nav class="header-nav">
+            <a class="nav-link current" href="./index.html">HOME</a>
+            <a class="nav-link" href="./library.html">MY LIBRARY</a>
+            <button class="nav-btn" type="button">SING IN
+              <svg viewBox="0 0 32 32" class="ellipse" width="47" height="47" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8421" d="M31.579 16c0 8.604-6.975 15.579-15.579 15.579s-15.579-6.975-15.579-15.579c0-8.604 6.975-15.579 15.579-15.579s15.579 6.975 15.579 15.579z"></path>
+              </svg>
+            </button>
+        </nav>
+    </div>
+        <div class="search">
+            <form class="search-form" id="search-form">
+              <input
+                type="text"
+                name="searchQuery"
+                id="search-box"
+                autocomplete="off"
+                placeholder="Movie search"
+              />
+              <button type="submit" class="search_btn">
+                <svg class="icon-search" width="12" height="12">
+                  <use href="/src/img/icon.svg#icon-search"></use>
+                </svg>
+              </button>
+            </form>
+            <span class="error-js"></span>
+          </div>
+    </div>
+</header>
